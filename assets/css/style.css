@@ -1,0 +1,124 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap');
+
+/*Base CSS*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: 0 auto;
+}
+.div-width {
+    width: 50%;
+    float: left;
+}
+/*Start Header Area Here*/
+.back-img {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-bottom: 100px;
+}
+.content-area .mt {
+    margin-top: 140px;
+}
+.justify {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.shah {
+    color: #EC4C7A;
+    font-weight: 800;
+}
+a {
+    color: white;
+    background-color: #EC4C7A;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+
+}
+/*End Header Area Here*/
+
+/*Start Biography Area Here*/
+.biography-area {
+    background-image: url(../img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    padding: 100px 0 100px;
+}
+.bio {
+    font-size: 50px;
+    margin-top: 30px;
+}
+.mb {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+/*End Biography Area Here*/
+
+/*Start Work Area Here*/
+.work-area {
+    background-image: url(../img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.work h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.img-width {
+    width: 30%;
+    float: left;
+    margin: 0 18px;
+}
+/*End Work Area Here*/
+
+/*Start Content Area Here*/
+.content-area {
+    background-image: url(../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:550px;
+}
+.text-center {
+    text-align: center;
+}
+.client h1 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+.client h4 {
+    font-size: 30px;
+    margin: 40px 0 0 0;
+}
+.lorem {
+    font-size: 24px;
+}
+.email {
+    color: white;
+    background-color: #EC4F8F;
+    padding: 50px;
+    border-radius: 16px;
+    width: 60%;
+    margin-left: 190px;
+}
+.email p {
+    font-size: 20px;
+}
+.email h3 {
+    font-size: 30px;
+}
+/*End Content Area Here*/
+
